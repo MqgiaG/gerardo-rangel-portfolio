@@ -1,0 +1,99 @@
+.skills {
+
+  max-width: 980px;
+
+  margin: 90px auto 0;
+
+}
+
+
+.skills__title {
+
+  margin: 0 0 40px;
+
+  font-family: var(--heading-font);
+
+  font-size: 34px;
+
+  font-weight: 400;
+
+  line-height: 1.1;
+
+  color: var(--text-color);
+
+}
+
+
+.skills__icons {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 40px;
+
+}
+
+
+.skills__icon {
+
+  width: 55px;
+
+  height: 55px;
+
+  object-fit: contain;
+
+  opacity: 0.75;
+
+  transition: transform 0.25s ease,
+              opacity 0.25s ease;
+
+}
+
+
+.skills__icon:hover {
+
+  transform: translateY(-6px);
+
+  opacity: 1;
+
+}
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+
+
+  .skills {
+
+    padding: 0 20px;
+
+    margin-top: 60px;
+
+  }
+
+
+  .skills__icons {
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 30px;
+
+  }
+
+
+  .skills__icon {
+
+    width: 45px;
+
+    height: 45px;
+
+  }
+
+}
