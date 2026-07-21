@@ -1,29 +1,81 @@
-# Gerardo Rangel Portfolio
+# 👨‍💻 Gerardo Rangel | Full-Stack Web Developer
 
-Portafolio personal desarrollado como parte de mi formación como Full-Stack Web Developer.
+![Portfolio Preview](./images/profile.png)
 
-## Descripción
+## 🚀 Sobre mí
 
-Este proyecto consiste en un portafolio web personal donde presento mi perfil profesional, habilidades técnicas, proyectos realizados y formas de contacto.
+Soy Ingeniero Industrial y desarrollador **Full-Stack Web Developer en formación**.
 
-El objetivo del sitio es mostrar mi experiencia en desarrollo web y servir como presentación profesional para futuras oportunidades laborales.
+Me apasiona crear experiencias web modernas, funcionales y accesibles.
+Actualmente estoy desarrollando mis habilidades en tecnologías frontend y aplicando buenas prácticas de desarrollo como estructura semántica HTML, metodología BEM y diseño responsive.
 
-## Tecnologías utilizadas
+Me gusta resolver problemas mediante el código y aprender nuevas tecnologías que me permitan crear soluciones de calidad.
+
+---
+
+## 🛠️ Tecnologías
+
+### Frontend
 
 - HTML5
 - CSS3
 - JavaScript
+- Diseño Responsive
+- Metodología BEM
+
+### Herramientas
+
 - Git
 - GitHub
-- Metodología BEM
-- Diseño responsivo con Flexbox y Media Queries
+- Visual Studio Code
+- Prettier
 
-## Proyecto
+---
 
-El portafolio fue desarrollado siguiendo un diseño basado en Figma, aplicando buenas prácticas de estructura HTML, organización CSS y adaptación a diferentes tamaños de pantalla.
+## 📂 Proyectos
 
-## GitHub Pages
+### ☕ Triple Espresso
 
-Aquí estará el enlace cuando publiquemos el proyecto:
+Sitio web responsive para una cafetería de especialidad.
 
-https://mqgiag.github.io/gerardo-rangel-portfolio/
+Incluye:
+- Maquetación con HTML semántico
+- Estilos con CSS
+- Diseño adaptable a diferentes dispositivos
+
+Tecnologías:
+
+`HTML` `CSS`
+
+---
+
+### 💼 Portafolio Personal
+
+Mi sitio web personal donde muestro mis habilidades, proyectos y experiencia como desarrollador web.
+
+Tecnologías:
+
+`HTML` `CSS` `JavaScript`
+
+---
+
+## 📸 Vista previa
+
+![Portfolio](./images/triple-espresso.png)
+
+---
+
+## 📬 Contacto
+
+¿Tienes algún proyecto o oportunidad?
+
+Puedes contactarme:
+
+📧 **gerardoanrg@gmail.com**
+
+💻 GitHub:
+https://github.com/MqgiaG
+
+---
+
+⭐ Gracias por visitar mi portafolio.
