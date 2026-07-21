@@ -1,150 +1,374 @@
-.projects {
-  max-width: 1200px;
-  margin: 0 auto;
+/* =========================
+   PROJECTS
+========================= */
 
-  padding: 40px 0 80px;
+
+.projects {
+
+  margin-top: 120px;
+
 }
 
 
 .projects__title {
-  font-size: 48px;
-  font-weight: 700;
 
-  margin: 0 0 50px;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 48px;
+  margin-bottom: 50px;
+
 }
+
 
 
 .projects__grid {
+
   display: grid;
-
   grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
 
-  gap: 35px;
 }
+
+
+
+/* =========================
+   CARD
+========================= */
 
 
 .project-card {
+
   background-color: #1a1a1a;
 
-  border-radius: 18px;
+  border-radius: 16px;
 
   overflow: hidden;
 
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-
-.project-card:hover {
-  transform: translateY(-8px);
-
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-}
 
 
 .project-card__image {
+
   width: 100%;
+
   height: 280px;
 
   object-fit: cover;
 
+  object-position: center;
+
   display: block;
+
 }
+
 
 
 .project-card__content {
-  padding: 30px;
+
+  padding: 28px;
+
 }
+
 
 
 .project-card__technologies {
+
   display: flex;
 
-  gap: 15px;
+  gap: 16px;
 
   margin-bottom: 25px;
+
 }
+
 
 
 .project-card__technologies img {
-  width: 35px;
-  height: 35px;
 
-  object-fit: contain;
+  width: 32px;
+
+  height: 32px;
+
 }
+
 
 
 .project-card__title {
-  font-size: 28px;
-  font-weight: 700;
 
-  margin: 0 0 20px;
+  font-family: "Archivo Black", sans-serif;
+
+  font-size: 28px;
+
+  margin-bottom: 18px;
+
 }
 
 
+
 .project-card__description {
+
+  color: #bdbdbd;
+
   font-size: 18px;
 
   line-height: 1.6;
 
-  color: #b5b5b5;
+  margin-bottom: 30px;
 
-  margin: 0 0 25px;
 }
+
 
 
 .project-card__links {
+
   display: flex;
 
-  gap: 30px;
+  gap: 25px;
+
 }
 
 
+
 .project-card__link {
-  color: #6c63ff;
+
+  color: #7467ff;
 
   font-size: 18px;
 
   text-decoration: none;
+
 }
+
 
 
 .project-card__link:hover {
+
   text-decoration: underline;
+
 }
 
 
 
-/* TABLET / MOBILE */
+
+
+/* =========================
+   LAPTOP / DESKTOP
+========================= */
+
+
+@media screen and (min-width: 901px) {
+
+
+  .project-card:first-child .project-card__image {
+
+
+    height: 240px;
+
+    object-fit: cover;
+
+    object-position: center;
+
+
+  }
+
+
+
+}
+
+
+
+
+
+/* =========================
+   TABLET / IPAD MINI
+========================= */
+
 
 @media screen and (max-width: 900px) {
 
+
   .projects {
-    padding: 30px 24px 60px;
+
+    margin-top: 80px;
+
   }
 
-
-  .projects__title {
-    font-size: 38px;
-  }
 
 
   .projects__grid {
+
     grid-template-columns: 1fr;
+
+    gap: 30px;
+
   }
+
 
 
   .project-card__image {
-    height: 220px;
+
+    height: 240px;
+
   }
+
+
+
+  /* PORTAFOLIO PERSONAL */
+
+  .project-card:nth-child(2) .project-card__image {
+
+
+    height: 300px;
+
+    object-fit: contain;
+
+    object-position: center;
+
+    background-color: #111111;
+
+
+  }
+
+
+}
+
+
+
+
+
+/* =========================
+   IPHONE
+========================= */
+
+
+@media screen and (max-width: 480px) {
+
+
+  .projects {
+
+    margin-top: 70px;
+
+  }
+
+
+
+  .projects__title {
+
+    font-size: 32px;
+
+    margin-bottom: 30px;
+
+  }
+
+
+
+  .projects__grid {
+
+    grid-template-columns: 1fr;
+
+    gap: 25px;
+
+  }
+
+
+
+  .project-card {
+
+    width: 100%;
+
+  }
+
+
+
+  .project-card__image {
+
+
+    height: 170px;
+
+    object-fit: cover;
+
+    object-position: center;
+
+
+  }
+
 
 
   .project-card__content {
-    padding: 25px;
+
+    padding: 20px;
+
   }
+
+
+
+  .project-card__technologies img {
+
+
+    width: 28px;
+
+    height: 28px;
+
+
+  }
+
 
 
   .project-card__title {
-    font-size: 24px;
+
+    font-size: 22px;
+
   }
+
+
+
+  .project-card__description {
+
+
+    font-size: 15px;
+
+
+  }
+
+
+
+  .project-card__links {
+
+
+    gap: 20px;
+
+
+  }
+
+
+
+  .project-card__link {
+
+
+    font-size: 16px;
+
+
+  }
+
+
+
+
+  /* PORTAFOLIO PERSONAL IPHONE */
+
+
+  .project-card:nth-child(2) .project-card__image {
+
+
+    height: 220px;
+
+    object-fit: contain;
+
+    object-position: center;
+
+    background-color: #111111;
+
+
+  }
+
 
 }
